@@ -3,6 +3,7 @@ class Owner
   
   def initialize(name)
     @name = name
-    @mood = "nervous"
   end
+  
+  def self.all
 end
