@@ -1,4 +1,5 @@
 class Owner
+  attr_accessor :name 
   attr_reader :species
   
   @@all = []
@@ -24,4 +25,6 @@ class Owner
   def say_species
     "I am a human."
   end
+  
+  def name=
 end
